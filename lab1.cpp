@@ -1,5 +1,3 @@
-#include <iostream>
-
 /*
 Write a short C++ program that does the following:
 
@@ -9,11 +7,14 @@ Prints a message to the console that says "Hello, [name]! The computer has seen 
 You can copy-paste your program into the assignment or upload a file.
 */
 
+#include <iostream>
+using namespace std;
+
 int main() {
     int points = 40;
-    std::string name = "Mailo";
+    string name = "Mailo";
 
-    std::cout << "Hello, " << name << "! the computer has seen fit to assign you " << points << " points." << std::endl;
+    cout << "Hello, " << name << "! the computer has seen fit to assign you " << points << " points." << std::endl;
 }
 
 /*
