@@ -16,6 +16,7 @@ int main() {
 
     printAllValues(myArray, 5);
     changeFirstValue(myArray);
+    cout << "\n" << endl;
     printAllValues(myArray, 5);
 
     return 0;
