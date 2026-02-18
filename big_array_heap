@@ -1,0 +1,7 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    long bigNumber = 213232123;
+    long *arrayOnTheHeap = new long[bigNumber];
+}
