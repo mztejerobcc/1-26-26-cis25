@@ -11,7 +11,7 @@ int main() {
     int arrayOnTheStack[howBig]; // aray on the stack needs the size to be declared
     int *arrayOnTheHeap = new int[howBig];
 
-    cout << "How big is youur array: ";
+    cout << "How big is your array: ";
     cin >> howBig;
 
     for (int i = 0; i < howBig; i++) {
